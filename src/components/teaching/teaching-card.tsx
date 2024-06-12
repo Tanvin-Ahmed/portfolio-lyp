@@ -11,7 +11,7 @@ const TeachingCard = ({ _id, timeAndPlace, description, title }: Props) => {
   return (
     <div className="space-y-3">
       <h2 className="text-xl sm:text-2xl font-bold">
-        <Link href={`/${_id}`} className="text-primary underline">
+        <Link href={`/teaching/${_id}`} className="text-primary underline">
           {title}
         </Link>
       </h2>
