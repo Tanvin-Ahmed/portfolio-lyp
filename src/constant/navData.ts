@@ -4,10 +4,6 @@ export const navData = [
     value: "/publications",
   },
   {
-    label: "Talks",
-    value: "/talks",
-  },
-  {
     label: "Teaching",
     value: "/teaching",
   },
@@ -22,9 +18,5 @@ export const navData = [
   {
     label: "CV",
     value: "/cv",
-  },
-  {
-    label: "Guide",
-    value: "/markdown",
   },
 ];

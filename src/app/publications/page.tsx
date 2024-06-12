@@ -1,7 +1,13 @@
 import PublicationCard from "@/components/publications/publication-card";
 import { Separator } from "@/components/ui/separator";
 import { publicationData } from "@/constant/publicationsData";
+import { Metadata } from "next";
 import { Fragment } from "react";
+
+export const metadata: Metadata = {
+  title: "Publication | Portfolio",
+  description: "Introduction to my self",
+};
 
 const PublicationsPage = () => {
   return (
